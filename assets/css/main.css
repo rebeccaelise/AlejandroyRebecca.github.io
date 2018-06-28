@@ -621,7 +621,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: #ffffff;
 		color: #39454b;
 		padding: 2em;
 	}
