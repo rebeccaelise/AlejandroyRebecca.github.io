@@ -2239,7 +2239,7 @@ input, select, textarea {
 
 	#stay {
 		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 200px 200px, cover;
+		background-size: 128px 128px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
@@ -2249,7 +2249,7 @@ input, select, textarea {
 
 	#wear {
 		background: url("images/overlay.png"), url("../../images/wear.jpg");
-		background-size: 200px 200px, cover;
+		background-size: 128px 128px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
