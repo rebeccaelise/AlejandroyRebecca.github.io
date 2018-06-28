@@ -2472,3 +2472,17 @@ section .header .content p {
   color: white;
   text-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
+
+.map {
+  width: 485px;
+  height: 350px;
+  margin: 0 -10px;
+  pointer-events: none;
+}
+
+.map > iframe {
+  width: 100%;
+  border: 0;
+  height: 100%;
+}
+
