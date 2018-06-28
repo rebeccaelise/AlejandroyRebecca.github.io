@@ -2162,7 +2162,7 @@ input, select, textarea {
 		line-height: 1em;
 		padding: 1.5em;
 		background: #39454b;
-		color: rgba(185, 186, 187, 0.5);
+		color: rgb(247, 239, 243, 0.5);
 		overflow: hidden;
 	}
 
@@ -2175,7 +2175,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #b9babb;
+				color: #f7eff3;
 			}
 
 		#footer ul.menu {
@@ -2183,7 +2183,7 @@ input, select, textarea {
 		}
 
 			#footer ul.menu li {
-				border-left-color: rgba(185, 186, 187, 0.2);
+				border-left-color: rgba(247, 239, 243, 0.2);
 				font-size: 0.9em;
 			}
 
