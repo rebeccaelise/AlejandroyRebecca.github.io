@@ -2355,3 +2355,120 @@ input, select, textarea {
 .weather-glyph:hover .low {
   transform: translateX(-7px);
 }
+
+
+/* mobile screen sizes */
+@media (max-width: 960px) {
+  .content h3 {
+    font-size: 16px;
+  }
+
+  .content h4,
+  .content p,
+  form input,
+  form label,
+  form textarea {
+    font-size: 18px;
+  }
+
+  .content .meta {
+    font-size: 12px;
+  }
+
+  .wrap-photogrid {
+    margin: 0 -10px;
+  }
+
+  .wrap-photogrid img {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+  .wrap-photogrid:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+
+  .map {
+    width: calc(100% + 20px);
+    height: 260px;
+  }
+
+  .weather .weather-glyph {
+    -moz-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    top: 30px;
+    right: 125px;
+  }
+}
+
+/* desktop screen sizes */
+@media (min-width: 961px) {
+  .columns {
+    display: flex;
+  }
+  .columns > div {
+    flex: 1;
+    margin-right: 30px;
+  }
+
+  .columns div:last-child {
+    float: right;
+    margin-right: 0;
+  }
+
+  #lodging > .content {
+    padding-top: 210px;
+  }
+
+  #gifts > .content {
+    padding-top: 250px;
+  }
+
+  .wrap-photogrid {
+    left: -20px;
+    pointer-events: none;
+    position: absolute;
+    right: -10px;
+    top: 40px;
+  }
+
+  .wrap-photogrid img {
+    display: block;
+    width: 310px;
+
+    -moz-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+  .wrap-photogrid a {
+    display: block;
+    float: right;
+    margin: 10px;
+    overflow: hidden;
+    pointer-events: auto;
+    width: 310px;
+  }
+
+  .wrap-photogrid a:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .wrap-photogrid:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+}
+
+section .header .content h2,
+section .header .content p {
+  color: white;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
