@@ -107,6 +107,8 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
+
 /* Spinner */
 
 	@-moz-keyframes spinner-rotate {
@@ -496,6 +498,8 @@ input, select, textarea {
 		}
 
 	}
+
+
 
 /* Type */
 
