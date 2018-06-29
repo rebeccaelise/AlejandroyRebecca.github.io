@@ -549,13 +549,13 @@ input, select, textarea {
 
 		}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5,  {
 		font-weight: 900;
 		color: inherit;
 		letter-spacing: -0.0325em;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h2 a, h3 a, h4 a, h5 a,  a {
 			color: inherit;
 			text-decoration: none;
 		}
@@ -617,6 +617,21 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
 	}
+h6{
+    color: #000000;
+    display: inline-block;
+    font-size: 13pt;
+    font-family: inherit;
+    text-decoration: none;
+    background-image: linear-gradient(to left, #6666ff 0%, #ff33cc 100%);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 2px;
+    transition: background-size .5s ease;
+}
+h6:hover {
+    background-size: 100% 2px;
+}
 
 /* Box */
 
