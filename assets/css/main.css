@@ -221,7 +221,7 @@ input, select, textarea {
 			-webkit-transform: scale(1) rotate(0deg);
 			-ms-transform: scale(1) rotate(0deg);
 			transform: scale(1) rotate(0deg);
-			color: #e5e6e7;
+			color: #ffffff;
 			z-index: 100001;
 		}
 
@@ -230,7 +230,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.5) rotate(360deg);
 			-ms-transform: scale(0.5) rotate(360deg);
 			transform: scale(0.5) rotate(360deg);
-			color: #e5e6e7;
+			color: #ffffff;
 			z-index: 100001;
 		}
 
@@ -617,7 +617,7 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
 	}
-h6{
+h6 {
     color: #000000;
     display: inline-block;
     font-size: 13pt;
@@ -626,7 +626,7 @@ h6{
     background-image: linear-gradient(to left, #6666ff 0%, #ff33cc 100%);
     background-position: bottom left;
     background-repeat: no-repeat;
-    background-size: 50% 2px;
+    background-size: 75% 2px;
     transition: background-size .5s ease;
 }
 h6:hover {
