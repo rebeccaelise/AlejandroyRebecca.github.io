@@ -233,7 +233,7 @@ input, select, textarea {
 h6 {
     color: #000000;
     display: inline-block;
-    font-size: 13pt;
+    font-size: 15pt;
     font-family: inherit;
     text-decoration: none;
     background-image: linear-gradient(to left, #6666ff 0%, #ff33cc 100%);
